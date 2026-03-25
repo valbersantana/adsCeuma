@@ -44,7 +44,7 @@ DASHBOARDS = [
     },
 ]
 
-DEFAULT_INTERVAL = 90   # segundos entre slides
+DEFAULT_INTERVAL = 240   # segundos entre slides
 # ============================================================
 
 dashboards_json = json.dumps(DASHBOARDS)
