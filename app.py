@@ -222,6 +222,9 @@ HTML = f"""
     <option value="45">45s</option>
     <option value="60">60s</option>
     <option value="120">2min</option>
+    <option value="180">2min</option>
+    <option value="240">2min</option>
+    <option value="300">2min</option>
   </select>
 
   <!-- Ring de contagem regressiva -->
