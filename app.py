@@ -3,7 +3,7 @@ import streamlit.components.v1 as components
 import json
 
 st.set_page_config(
-    page_title="Power BI TV · CEUMA",
+    page_title="ADS · CEUMA",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
@@ -44,7 +44,7 @@ DASHBOARDS = [
     },
 ]
 
-DEFAULT_INTERVAL = 240   # segundos entre slides
+DEFAULT_INTERVAL = 60  # segundos entre slides
 # ============================================================
 
 dashboards_json = json.dumps(DASHBOARDS)
